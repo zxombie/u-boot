@@ -3,7 +3,6 @@
  * Copyright (c) 2017 Tuomas Tynkkynen
  */
 
-#include <common.h>
 #include <dm.h>
 #include <fdtdec.h>
 #include <virtio.h>

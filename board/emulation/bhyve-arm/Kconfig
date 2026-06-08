@@ -1,0 +1,6 @@
+if ARCH_BHYVE
+
+config TEXT_BASE
+	default 0x100000000
+
+endif

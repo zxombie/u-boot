@@ -90,9 +90,10 @@ int dram_init_banksize(void)
 	return 0;
 }
 
-void *board_fdt_blob_setup(int *err)
+int board_fdt_blob_setup(void **fdtp)
 {
-	*err = 0;
 	/* XXX: Pass in the address from the host */
-	return (void *)0x100100000;
+	*fdtp = (void *)0x100100000;
+
+	return 0;
 }
